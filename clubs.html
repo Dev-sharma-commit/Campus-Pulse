@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Clubs - CampusPulse</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-primary" href="index.html">
+        <i class="bi bi-mortarboard-fill"></i> CampusPulse
+      </a>
+      
+      <div class="d-flex flex-wrap align-items-center gap-2">
+        <a class="btn btn-outline-primary btn-sm" href="index.html">Home</a>
+        <a class="btn btn-outline-primary btn-sm" href="events.html">Events</a>
+        <a class="btn btn-outline-primary btn-sm" href="hackathons.html">Hackathons</a>
+        <a class="btn btn-primary btn-sm fw-bold" href="clubs.html">Clubs</a>
+        <a class="btn btn-outline-primary btn-sm" href="news.html">Tech News</a>
+        <a class="btn btn-outline-primary btn-sm" href="about.html">About Creators</a>
+        <a class="btn btn-success btn-sm fw-bold" href="register.html">Register</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+
+    <!--Header -->
+    <div class="bg-warning text-dark p-4 rounded mb-4">
+      <h2 class="fw-bold mb-1"><i class="bi bi-people-fill"></i> Student Clubs & Societies</h2>
+      <p class="mb-0">Join student-run technical and cultural clubs in our college.</p>
+    </div>
+
+    <!-- Clubs Grid -->
+    <div class="row g-4 mb-5">
+      
+      <!-- Club 1: Robotics -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100 text-center p-3">
+          <div class="card-body">
+            <div class="fs-1 text-primary mb-2"><i class="bi bi-cpu"></i></div>
+            <h5 class="fw-bold">Robotics and Aviation club (RAC)</h5>
+            <span class="badge bg-secondary mb-3">Hardware & IoT</span>
+            <p class="card-text text-muted small">
+              Work on microcontrollers, Arduino, sensors, and autonomous rovers.
+            </p>
+            <hr>
+            <p class="small mb-1"><strong>Lead:</strong> Prof. Ashlesh Jaiswal</p>
+            <p class="small mb-3"><strong>Members:</strong> 180+ Students</p>
+            <a href="register.html" class="btn btn-primary btn-sm w-100">Join Club</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Club 2: Technical Club -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100 text-center p-3">
+          <div class="card-body">
+            <div class="fs-1 text-success mb-2"><i class="bi bi-code-slash"></i></div>
+            <h5 class="fw-bold">Technical Club</h5>
+            <span class="badge bg-secondary mb-3">Programming & Web</span>
+            <p class="card-text text-muted small">
+              Practice data structures, algorithms, web development, and coding contest preparation.
+            </p>
+            <hr>
+            <p class="small mb-1"><strong>Lead:</strong> Prof. Prashant B. Shiwalkar</p>
+            <p class="small mb-3"><strong>Members:</strong> 340+ Students</p>
+            <a href="register.html" class="btn btn-primary btn-sm w-100">Join Club</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Club 3: E-Cell -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100 text-center p-3">
+          <div class="card-body">
+            <div class="fs-1 text-warning mb-2"><i class="bi bi-rocket-takeoff"></i></div>
+            <h5 class="fw-bold">E-Cell Club</h5>
+            <span class="badge bg-secondary mb-3">Entrepreneurship</span>
+            <p class="card-text text-muted small">
+              Learn how to start a business, build pitch decks, and participate in case study competitions.
+            </p>
+            <hr>
+            <p class="small mb-1"><strong>Lead:</strong>Dr. Rajesh S. Pandey</p>
+            <p class="small mb-3"><strong>Members:</strong> 150+ Students</p>
+            <a href="register.html" class="btn btn-primary btn-sm w-100">Join Club</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Club 4: Cultural Club -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100 text-center p-3">
+          <div class="card-body">
+            <div class="fs-1 text-danger mb-2"><i class="bi bi-music-note-beamed"></i></div>
+            <h5 class="fw-bold">Nautanki and Aashiyan</h5>
+            <span class="badge bg-secondary mb-3">Music & Drama</span>
+            <p class="card-text text-muted small">
+              Participate in college music bands, drama, dance, and help organize college annual fest.
+            </p>
+            <hr>
+            <p class="small mb-1"><strong>Lead:</strong> Niral Kakani(SRC)</p>
+            <p class="small mb-3"><strong>Members:</strong> 220+ Students</p>
+            <a href="register.html" class="btn btn-primary btn-sm w-100">Join Club</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Weekly Activities Table -->
+    <h4 class="fw-bold mb-3"><i class="bi bi-calendar3"></i> Weekly Club Activities Schedule</h4>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th>Club Name</th>
+            <th>Activity</th>
+            <th>Day & Time</th>
+            <th>Venue</th>
+            <th>Join</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>RAC Club</strong></td>
+            <td>Circuit Soldering & Sensor Test</td>
+            <td>Tuesday, 04:30 PM</td>
+            <td>Robotics Lab</td>
+            <td><a href="register.html" class="btn btn-sm btn-outline-primary">Register</a></td>
+          </tr>
+          <tr>
+            <td><strong>Technical Club</strong></td>
+            <td>LeetCode Problem Solving</td>
+            <td>Thursday, 05:00 PM</td>
+            <td>Computer Lab</td>
+            <td><a href="register.html" class="btn btn-sm btn-outline-primary">Register</a></td>
+          </tr>
+          <tr>
+            <td><strong>E-Cell</strong></td>
+            <td>Idea Pitching Discussion</td>
+            <td>Friday, 04:00 PM</td>
+            <td>Incubation Room</td>
+            <td><a href="register.html" class="btn btn-sm btn-outline-primary">Register</a></td>
+          </tr>
+          <tr>
+            <td><strong>Nautanki Club</strong></td>
+            <td>Music Jam Session</td>
+            <td>Saturday, 03:30 PM</td>
+            <td>Amphitheatre Stage</td>
+            <td><a href="register.html" class="btn btn-sm btn-outline-primary">Register</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="fw-bold text-white mb-2">CampusPulse - Campus Event & Club Management</p>
+      <div class="mb-3">
+        <a href="index.html">Home</a> |
+        <a href="events.html">Events</a> |
+        <a href="hackathons.html">Hackathons</a> |
+        <a href="clubs.html">Clubs</a> |
+        <a href="news.html">Tech News</a> |
+        <a href="about.html">About Creators</a> |
+        <a href="register.html">Register</a>
+      
+  </footer>
+
+</body>
+</html>
