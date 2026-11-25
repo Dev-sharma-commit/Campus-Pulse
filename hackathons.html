@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathons - CampusPulse</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-primary" href="index.html">
+        <i class="bi bi-mortarboard-fill"></i> CampusPulse
+      </a>
+      
+      <div class="d-flex flex-wrap align-items-center gap-2">
+        <a class="btn btn-outline-primary btn-sm" href="index.html">Home</a>
+        <a class="btn btn-outline-primary btn-sm" href="events.html">Events</a>
+        <a class="btn btn-primary btn-sm fw-bold" href="hackathons.html">Hackathons</a>
+        <a class="btn btn-outline-primary btn-sm" href="clubs.html">Clubs</a>
+        <a class="btn btn-outline-primary btn-sm" href="news.html">Tech News</a>
+        <a class="btn btn-outline-primary btn-sm" href="about.html">About Creators</a>
+        <a class="btn btn-success btn-sm fw-bold" href="register.html">Register</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+
+    <!--Header -->
+    <div class="bg-dark text-white p-4 rounded mb-4">
+      <h2 class="fw-bold mb-1"><i class="bi bi-laptop"></i> Hackathons Directory</h2>
+      <p class="mb-0">Find internal college hackathons and external national competitions with venue and participation mode.</p>
+    </div>
+
+    <!-- Summary Box -->
+    <div class="alert alert-info py-2 mb-4">
+      <strong>Note:</strong> Check whether the hackathon is <strong>Internal</strong> (for our college only) or <strong>External</strong> (all colleges), and if participation is <strong>Offline</strong> (in-person) or <strong>Online</strong> (virtual).
+    </div>
+
+    <!-- Hackathons Cards -->
+    <div class="row g-4">
+
+      <!-- Hackathon 1: Internal + Offline -->
+      <div class="col-md-6">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <div class="mb-2">
+              <span class="badge bg-primary">Internal College</span>
+              <span class="badge bg-success">Mode: Offline (On-Campus)</span>
+              <span class="badge bg-warning text-dark float-end">Prize: ₹50,000</span>
+            </div>
+            
+            <h4 class="card-title fw-bold">Shrijana</h4>
+            <p class="card-text text-muted small">
+              Build smart solutions for college problems like hostel mess management, library book tracking, and automatic attendance.
+            </p>
+
+            <table class="table table-bordered table-sm my-3 small">
+              <tbody>
+                <tr>
+                  <th class="bg-light" style="width: 35%;">Venue:</th>
+                  <td>Digital tower, 3rd floor, DT-302</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Type / Scope:</th>
+                  <td><strong>Internal</strong> (Only for our college students)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Participation Mode:</th>
+                  <td><strong>Offline</strong> (In-person 24 hours)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Date:</th>
+                  <td>12–13 December 2026 (09:00 AM Start)</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <a href="register.html" class="btn btn-primary w-100">Register Team &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hackathon 2: External + Online -->
+      <div class="col-md-6">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <div class="mb-2">
+              <span class="badge bg-dark">External National</span>
+              <span class="badge bg-info text-dark">Mode: Online (Virtual)</span>
+              <span class="badge bg-warning text-dark float-end">Prize: $10,000 USD</span>
+            </div>
+            
+            <h4 class="card-title fw-bold">Hackanova</h4>
+            <p class="card-text text-muted small">
+              International virtual hackathon for college students. Build generative AI and cloud software using free cloud credits.
+            </p>
+
+            <table class="table table-bordered table-sm my-3 small">
+              <tbody>
+                <tr>
+                  <th class="bg-light" style="width: 35%;">Venue:</th>
+                  <td>Online / Virtual (Discord & GitHub)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Type / Scope:</th>
+                  <td><strong>External</strong> (Open to all engineering colleges)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Participation Mode:</th>
+                  <td><strong>Online</strong> (Work from your laptop/hostel)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Date:</th>
+                  <td>19–21 December 2026 (48 Hours)</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <a href="register.html" class="btn btn-primary w-100">Register on Portal &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hackathon 3: External + Offline -->
+      <div class="col-md-6">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <div class="mb-2">
+              <span class="badge bg-dark">External Inter-College</span>
+              <span class="badge bg-success">Mode: Offline (On-Site)</span>
+              <span class="badge bg-warning text-dark float-end">Prize: ₹1,50,000</span>
+            </div>
+            
+            <h4 class="card-title fw-bold">Smart India Hackathon(SIH)</h4>
+            <p class="card-text text-muted small">
+              State-level innovation marathon. Shortlisted campus teams travel to the state convention center for physical presentation.
+            </p>
+
+            <table class="table table-bordered table-sm my-3 small">
+              <tbody>
+                <tr>
+                  <th class="bg-light" style="width: 35%;">Venue:</th>
+                  <td>Digital tower, 8rd floor, DT-802</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Type / Scope:</th>
+                  <td><strong>External</strong> (Inter-university competition)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Participation Mode:</th>
+                  <td><strong>Offline</strong> (Physical on-site presentation)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Date:</th>
+                  <td>05–06 January 2027 (36 Hours)</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <a href="register.html" class="btn btn-primary w-100">Register Nomination &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hackathon 4: Internal + Online -->
+      <div class="col-md-6">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <div class="mb-2">
+              <span class="badge bg-primary">Internal College</span>
+              <span class="badge bg-info text-dark">Mode: Online (Virtual)</span>
+              <span class="badge bg-warning text-dark float-end">Prize: ₹25,000</span>
+            </div>
+            
+            <h4 class="card-title fw-bold">Prajwalan</h4>
+            <p class="card-text text-muted small">
+              Capture-The-Flag cybersecurity competition. Solve cryptography, web security, and reverse engineering challenges online.
+            </p>
+
+            <table class="table table-bordered table-sm my-3 small">
+              <tbody>
+                <tr>
+                  <th class="bg-light" style="width: 35%;">Venue:</th>
+                  <td>College Intranet CTF Portal & Secure VPN</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Type / Scope:</th>
+                  <td><strong>Internal</strong> (College students only)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Participation Mode:</th>
+                  <td><strong>Online</strong> (Play from dorm/computer lab)</td>
+                </tr>
+                <tr>
+                  <th class="bg-light">Date:</th>
+                  <td>16 January 2027 (12 Hours)</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <a href="register.html" class="btn btn-primary w-100">Register Now &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="fw-bold text-white mb-2">CampusPulse - Campus Event & Club Management</p>
+      <div class="mb-3">
+        <a href="index.html">Home</a> |
+        <a href="events.html">Events</a> |
+        <a href="hackathons.html">Hackathons</a> |
+        <a href="clubs.html">Clubs</a> |
+        <a href="news.html">Tech News</a> |
+        <a href="about.html">About Creators</a> |
+        <a href="register.html">Register</a>
+  </footer>
+
+</body>
+</html>
