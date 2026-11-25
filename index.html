@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusPulse - Campus Event & Club Management</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-primary" href="index.html">
+        <i class="bi bi-mortarboard-fill"></i> CampusPulse
+      </a>
+      
+      <!-- Nav Links -->
+      <div class="d-flex flex-wrap align-items-center gap-2">
+        <a class="btn btn-primary btn-sm fw-bold" href="index.html">Home</a>
+        <a class="btn btn-outline-primary btn-sm" href="events.html">Events</a>
+        <a class="btn btn-outline-primary btn-sm" href="hackathons.html">Hackathons</a>
+        <a class="btn btn-outline-primary btn-sm" href="clubs.html">Clubs</a>
+        <a class="btn btn-outline-primary btn-sm" href="news.html">Tech News</a>
+        <a class="btn btn-outline-primary btn-sm" href="about.html">About Creators</a>
+        <a class="btn btn-success btn-sm fw-bold" href="register.html">Register</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+
+    <!-- Welcome Header -->
+    <div class="main-banner text-center">
+      <span class="badge bg-light text-primary mb-2">College Project 2026</span>
+      <h1 class="fw-bold">Campus Events & Club Finder</h1>
+      <p class="lead">Students can find college events, hackathons, and clubs in one place.</p>
+      <div class="mt-3">
+        <a href="events.html" class="btn btn-light btn-lg fw-bold text-primary m-1">Explore Events</a>
+        <a href="hackathons.html" class="btn btn-outline-light btn-lg m-1">View Hackathons</a>
+        <a href="clubs.html" class="btn btn-outline-light btn-lg m-1">Join Clubs</a>
+      </div>
+    </div>
+
+    <!--About/Details-->
+    <div class="row text-center mb-4 g-3">
+      <div class="col-md-3 col-6">
+        <div class="p-3 bg-white border rounded">
+          <h3 class="text-primary fw-bold mb-0">15+</h3>
+          <p class="text-muted mb-0">Campus Clubs</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="p-3 bg-white border rounded">
+          <h3 class="text-success fw-bold mb-0">50+</h3>
+          <p class="text-muted mb-0">Annual Events</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="p-3 bg-white border rounded">
+          <h3 class="text-warning fw-bold mb-0">12+</h3>
+          <p class="text-muted mb-0">Hackathons</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="p-3 bg-white border rounded">
+          <h3 class="text-info fw-bold mb-0">6,500+</h3>
+          <p class="text-muted mb-0">Students Joined</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Website Sections / Page Links -->
+    <h3 class="fw-bold mb-3 border-bottom pb-2">Website Sections</h3>
+    <div class="row g-4 mb-4">
+      
+      <!-- Box 1: Events -->
+      <div class="col-md-4">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-primary">
+              <i class="bi bi-calendar-event"></i> Campus Events
+            </h5>
+            <p class="card-text text-muted">
+              Check out all upcoming college fests and technical workshops like Nureka, RoboDrive, and Pratishruti.
+            </p>
+            <a href="events.html" class="btn btn-outline-primary btn-sm w-100">Go to Events Page &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 2: Hackathons -->
+      <div class="col-md-4">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-success">
+              <i class="bi bi-laptop"></i> Hackathons List
+            </h5>
+            <p class="card-text text-muted">
+              List of Internal and External hackathons with Offline or Online mode of participation, venue, and prize pool.
+            </p>
+            <a href="hackathons.html" class="btn btn-outline-success btn-sm w-100">Go to Hackathons Page &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 3: Clubs -->
+      <div class="col-md-4">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-warning">
+              <i class="bi bi-people-fill"></i> Student Clubs
+            </h5>
+            <p class="card-text text-muted">
+              Explore college clubs like Robotics Club, Coding Club, E-Cell, and Cultural Club. Check weekly schedule and leads.
+            </p>
+            <a href="clubs.html" class="btn btn-outline-warning text-dark btn-sm w-100">Go to Clubs Page &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 4: Tech News -->
+      <div class="col-md-4">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-info">
+              <i class="bi bi-newspaper"></i> Tech News Corner
+            </h5>
+            <p class="card-text text-muted">
+              Read simple articles about current technology news: Artificial Intelligence, Quantum Computing, and Cybersecurity.
+            </p>
+            <a href="news.html" class="btn btn-outline-info text-dark btn-sm w-100">Go to Tech News Page &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 5: Registration -->
+      <div class="col-md-4">
+        <div class="card h-100 p-3 border-primary">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-primary">
+              <i class="bi bi-card-checklist"></i> Registration Form
+            </h5>
+            <p class="card-text text-muted">
+              Fill out your Name, Roll Number, Branch, and Email to register for events, hackathons, or club memberships.
+            </p>
+            <a href="register.html" class="btn btn-primary btn-sm w-100">Go to Registration &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 6: About Creators -->
+      <div class="col-md-4">
+        <div class="card h-100 p-3">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-secondary">
+              <i class="bi bi-person-badge"></i> About Creators
+            </h5>
+            <p class="card-text text-muted">
+              Meet the 4 student creators who built this website with their Branch and University Roll Numbers.
+            </p>
+            <a href="about.html" class="btn btn-outline-secondary btn-sm w-100">Go to Creators Page &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="fw-bold text-white mb-2">CampusPulse - Campus Event & Club Management</p>
+      <div class="mb-3">
+        <a href="index.html">Home</a> |
+        <a href="events.html">Events</a> |
+        <a href="hackathons.html">Hackathons</a> |
+        <a href="clubs.html">Clubs</a> |
+        <a href="news.html">Tech News</a> |
+        <a href="about.html">About Creators</a> |
+        <a href="register.html">Register</a>
+  </footer>
+
+</body>
+</html>
